@@ -114,7 +114,7 @@ def upload_folder(service, folder_path, parent_id='root'):
 def main():
     """Main function to authenticate, create a folder and upload files."""
     drive_service = authenticate_user()
-    folder_path = r"C:\Users\alexa\OneDrive\Área de Trabalho\google_drive_py\google_drive_python\pasta"
+    folder_path = "folder path"
     folder_id = upload_folder(drive_service, folder_path)
     if folder_id:
         print(f"Folder '{folder_path}' uploaded successfully.")
