@@ -1,3 +1,6 @@
+""" código que autentica o usuário, cria pastas no drive e envia um invite para o google calendar para o email apontado
+com o nome da pasta e link da pasta no Drive na descrição do evento """
+
 import os
 import base64
 import datetime
